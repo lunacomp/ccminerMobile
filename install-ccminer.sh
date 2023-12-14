@@ -1,6 +1,3 @@
-#!/bin/bash
-
-echo "@reboot bash /root/ccminer/start.sh &" | sudo crontab -
 #!/bin/sh
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -31,6 +28,7 @@ GITHUB_DOWNLOAD_NAME=$(echo $GITHUB_RELEASE_JSON | jq -r ".[0].assets[0].name")
 echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
 wget ${GITHUB_DOWNLOAD_URL} -P ~/ccminer
+echo "@reboot bash /root/ccminer/start.sh &" | sudo crontab -
 
 if [ -f ~/ccminer/config.json ]
 then
