@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "name": "luckpool",
+            "url": "stratum+tcp://ap.luckpool.net:3956",
+            "timeout": 150
+        },
+        {
+            "name": "luckpool",
+            "url": "stratum+tcp://ap.luckpool.net:3956",
+            "timeout": 60,
+            "time-limit": 600
+        }
+    ],
+    "user": "RQDmLkZbRKs51qVnKcPHQeDtPcBZ2Favvk.Worker-001",
+    "pass": "hybrid",
+    "algo": "verus",
+    "threads": 4,
+    "cpu-priority": 1,
+    "retry-pause": 5,
+    "api-allow": "10.53.4.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
