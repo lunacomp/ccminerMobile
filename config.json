@@ -14,7 +14,7 @@
 	
 	"user": "RM3wr66JUsif5nSFSzWemSyhDaaaeUwsop.Worker-001",
 	"algo": "verus",
-	"threads": 8,
+	"threads": 4,
 	"cpu-priority": 1,
 	"retry-pause": 5,
 	"api-allow": "10.53.4.0/16",
