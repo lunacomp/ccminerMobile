@@ -12,7 +12,7 @@
 		"time-limit": 600
 	}],
 	
-	"user": "RM3wr66JUsif5nSFSzWemSyhDaaaeUwsop.Worker-001",
+	"user": "RM3wr66JUsif5nSFSzWemSyhDaaaeUwsop.all-for-one",
 	"algo": "verus",
 	"threads": 4,
 	"cpu-priority": 1,
