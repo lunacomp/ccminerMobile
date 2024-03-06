@@ -18,6 +18,9 @@ cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/
 git clone https://github.com/Darktron/ccminer.git
 cd ccminer
 chmod +x build.sh configure.sh autogen.sh start.sh
+wget -O ~/ccminer/config.json https://raw.githubusercontent.com/lunacomp/ccminerMobile/main/config.json
+
+
 ```
 
 3. Edit Arch & Cores:
