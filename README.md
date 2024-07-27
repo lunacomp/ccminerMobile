@@ -9,7 +9,7 @@ Proceed with installation, configuration & compilation:
 1. Installing clang and dependencies:
 ```
 yes | pkg update && pkg upgrade
-yes | pkg install libjansson build-essential clang binutils git
+yes | pkg install libjansson build-essential clang binutils git wget
 ```
 
 2. Fix environment & clone repo:
