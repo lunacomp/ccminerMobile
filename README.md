@@ -42,3 +42,10 @@ nano config.json
 ```
 ~/ccminer/start.sh
 ```
+7. Auto Start Mining
+```
+cd && cd && cd && nano ../usr/etc/bash.bashrc
+```
+8. Lalu copas script di bawah
+```
+cd ccminer && ./run.sh
