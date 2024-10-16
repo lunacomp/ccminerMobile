@@ -49,6 +49,7 @@ cd && cd && cd && nano ../usr/etc/bash.bashrc
 8. Lalu copas script di bawah
 ```
 cd ccminer && ./run.sh
+```
 9. Mining Kondisi Layar Mati tetep OK paste kode di bawah cd && cd && cd && nano ../usr/etc/bash.bashrc
 ```
 termux-wake-lock
