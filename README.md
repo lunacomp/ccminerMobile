@@ -23,30 +23,27 @@ chmod +x build.sh configure.sh autogen.sh start.sh
 
 ```
 
-3. Edit Arch & Cores:
-```
-nano configure.sh
-```
 
-4. Compile ccminer:
+
+3. Compile ccminer:
 ```
 CXX=clang++ CC=clang ./build.sh
 ```
 
-5. Change your pools, address, and miner name with:
+4. Change your pools, address, and miner name with:
 ```
 nano config.json
 ```
 
-6. Finally run the miner with:
+5. Finally run the miner with:
 ```
 ~/ccminer/start.sh
 ```
-7. Auto Start Mining
+6. Auto Start Mining
 ```
 cd && cd && cd && nano ../usr/etc/bash.bashrc
 ```
-8. Lalu copas script di bawah
+7. Lalu copas script di bawah
 ```
 termux-wake-lock
 cd ccminer && ./run.sh
